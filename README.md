@@ -4,11 +4,11 @@ This project is a data visualization application built with React. It visualizes
 
 ## Features
 
-- Visualizes test data for three components: front, back, and db.
-- Displays data for three instances: dev, test, and prod.
-- Shows a comparison with a specified norm.
-- Uses styled-components for styling.
-- Fetches data from a remote server using Axios.
+- **Visualizes test data** for three components: front, back, and db.
+- **Displays data** for three instances: dev, test, and prod.
+- **Shows a comparison** with a specified norm.
+- **Uses styled-components** for styling.
+- **Fetches data** from a remote server using Axios.
 
 ## Getting Started
 
@@ -16,8 +16,8 @@ These instructions will help you set up and run the project on your local machin
 
 ### Prerequisites
 
-- Node.js (version 14 or higher)
-- npm (version 6 or higher)
+- **Node.js** (version 14 or higher)
+- **npm** (version 6 or higher)
 
 ### Installation
 
@@ -28,13 +28,13 @@ These instructions will help you set up and run the project on your local machin
    cd test-visualization
    ```
 
-Install the dependencies:
+2. Install the dependencies:
 
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
-Running the Application
+### Running the Application
 
 To start the application in development mode, run:
 
@@ -42,9 +42,9 @@ To start the application in development mode, run:
 npm start
 ```
 
-Open http://localhost:3000 in your browser to view the application.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-Building for Production
+### Building for Production
 
 To create a production build, run:
 
@@ -52,32 +52,39 @@ To create a production build, run:
 npm run build
 ```
 
-This will create a build folder with all the optimized files.
+This will create a `build` folder with all the optimized files.
 
-Project Structure
-src/components: Contains React components for the application.
-src/styles: Contains global styles using styled-components.
-src/utils: Contains utility functions, such as data fetching.
-public: Contains static files and the HTML template.
-Data Sources
+## Project Structure
+
+- `src/components`: Contains React components for the application.
+- `src/styles`: Contains global styles using styled-components.
+- `src/utils`: Contains utility functions, such as data fetching.
+- `public`: Contains static files and the HTML template.
+
+## Data Sources
+
 The application fetches data from the following URLs:
 
-https://rcslabs.ru/ttrp1.json
-https://rcslabs.ru/ttrp2.json
-https://rcslabs.ru/ttrp3.json
-https://rcslabs.ru/ttrp4.json
-https://rcslabs.ru/ttrp5.json
+- [https://rcslabs.ru/ttrp1.json](https://rcslabs.ru/ttrp1.json)
+- [https://rcslabs.ru/ttrp2.json](https://rcslabs.ru/ttrp2.json)
+- [https://rcslabs.ru/ttrp3.json](https://rcslabs.ru/ttrp3.json)
+- [https://rcslabs.ru/ttrp4.json](https://rcslabs.ru/ttrp4.json)
+- [https://rcslabs.ru/ttrp5.json](https://rcslabs.ru/ttrp5.json)
 
-Technologies Used
-React
-Styled-components
-Axios
-Contributing
+## Technologies Used
+
+- **React**
+- **Styled-components**
+- **Axios**
+
+## Contributing
 
 If you wish to contribute to this project, please fork the repository and submit a pull request.
 
-License
+## License
+
 This project is licensed under the MIT License.
 
-Acknowledgments
+## Acknowledgments
+
 This project was bootstrapped with Create React App.
